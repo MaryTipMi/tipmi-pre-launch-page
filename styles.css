@@ -1,0 +1,115 @@
+/* RESET*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Main styles */
+
+body {
+  background: #0b0b0c;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#tipmi-wordmark {
+  width: 250px;
+  height: auto;
+}
+
+#tagline {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#tipmi-logo {
+  width: 140px;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  #tipmi-wordmark {
+    width: 410px;
+    height: auto;
+  }
+  #header {
+    padding: 4rem;
+  }
+  #tagline {
+    font-size: 1.8rem;
+  }
+  main {
+    padding: 2rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
