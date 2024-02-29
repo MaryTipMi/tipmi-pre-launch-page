@@ -95,6 +95,40 @@ h3 {
   font-weight: bold;
 }
 
+#mc_embed_shell,
+div#mc_embed_signup {
+  width: 100%;
+  background: #0b0b0c;
+  color: #fff;
+}
+
+#mc_embed_shell {
+  padding: 1rem 0;
+}
+
+div#mc_embed_signup form {
+  margin: 1rem;
+}
+
+div#mc_embed_signup .mc-field-group input {
+  font-size: 1.1rem;
+  padding: 1rem 0.5rem;
+}
+
+input#mc-embedded-subscribe.button {
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   #tipmi-wordmark {
     width: 410px;
