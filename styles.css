@@ -102,6 +102,14 @@ div#mc_embed_signup {
   color: #fff;
 }
 
+.form-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
 #mc_embed_shell {
   padding: 1rem 0;
 }
@@ -115,10 +123,15 @@ div#mc_embed_signup .mc-field-group input {
   padding: 1rem 0.5rem;
 }
 
+div#mc_embed_signup .mc-field-group {
+  padding: 0;
+}
+
 input#mc-embedded-subscribe.button {
   background-color: red;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
+  height: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +139,7 @@ input#mc-embedded-subscribe.button {
   font-size: 1.1rem;
   border: none;
   cursor: pointer;
-  height: auto;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
